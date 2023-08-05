@@ -1,10 +1,7 @@
 package main
 
 import (
-	"bytes"
-	"fmt"
 	"log"
-	"time"
 
 	device "github.com/d2r2/go-hd44780"
 	"github.com/d2r2/go-i2c"
@@ -27,10 +24,6 @@ func main() {
 	err = lcd.ShowMessage("Test Line 1", device.SHOW_LINE_1)
 	checkError(err)
 	err = lcd.ShowMessage("Test line 2", device.SHOW_LINE_2)
-	checkError(err)
-  err = lcd.ShowMessage("Test line 3", device.SHOW_LINE_2)
-	checkError(err)
-  err = lcd.ShowMessage("Test line 4", device.SHOW_LINE_2)
 	checkError(err)
 
 }
