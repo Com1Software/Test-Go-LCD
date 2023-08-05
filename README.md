@@ -1,5 +1,5 @@
 # Test-Go-LCD
-
+Liquid-crystal display equiped with HD44780 integrated circuit
 [go-hd44780](https://github.com/d2r2/go-hd44780)
 
 KEYESTUDIO 1602 LCD IIC/I2C/TWI Display 16x2 Character LCD Screen Module for Arduino Raspberry Pi
