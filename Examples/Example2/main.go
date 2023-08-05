@@ -26,9 +26,9 @@ func main() {
 	for {
 		lcd.Home()
 		t := time.Now()
-		lcd.SetPosition(0, 0)
+		lcd.SetPosition(0, 3)
 		fmt.Fprint(lcd, t.Format("Monday Jan 2"))
-		lcd.SetPosition(1, 0)
+		lcd.SetPosition(1, 3)
 		fmt.Fprint(lcd, t.Format("15:04:05 2006"))
 		time.Sleep(100 * time.Millisecond)
 	}
