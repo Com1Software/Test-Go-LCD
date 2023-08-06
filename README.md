@@ -1,4 +1,6 @@
 # Test-Go-LCD
+[Package hd44780i2c implements a driver for the Hitachi HD44780 LCD display module with an I2C adapter.](https://pkg.go.dev/tinygo.org/x/drivers/hd44780i2c)
+
 Liquid-crystal display equiped with HD44780 integrated circuit
 [go-hd44780](https://github.com/d2r2/go-hd44780)
 
