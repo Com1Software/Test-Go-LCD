@@ -1,4 +1,7 @@
 # Test-Go-LCD
+
+[Sunfounder Woki I2C LCD2004](http://wiki.sunfounder.cc/index.php?title=I2C_LCD2004)
+
 [Package hd44780i2c implements a driver for the Hitachi HD44780 LCD display module with an I2C adapter.](https://pkg.go.dev/tinygo.org/x/drivers/hd44780i2c)
 
 Liquid-crystal display equiped with HD44780 integrated circuit
