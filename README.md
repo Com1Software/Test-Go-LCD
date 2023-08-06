@@ -1,4 +1,5 @@
 # Test-Go-LCD
+[Simplest UNO Digital Clock Ever](https://projecthub.arduino.cc/plouc68000/simplest-uno-digital-clock-ever-03c185)
 
 [Sunfounder Wiki I2C LCD2004](http://wiki.sunfounder.cc/index.php?title=I2C_LCD2004)
 
