@@ -1,7 +1,10 @@
 # Test-Go-LCD
-[Simplest UNO Digital Clock Ever](https://projecthub.arduino.cc/plouc68000/simplest-uno-digital-clock-ever-03c185)
+
+[d2r2/go-hd44780](https://github.com/d2r2/go-hd44780)
 
 [Sunfounder Wiki I2C LCD2004](http://wiki.sunfounder.cc/index.php?title=I2C_LCD2004)
+
+[Simplest UNO Digital Clock Ever](https://projecthub.arduino.cc/plouc68000/simplest-uno-digital-clock-ever-03c185)
 
 [Package hd44780i2c implements a driver for the Hitachi HD44780 LCD display module with an I2C adapter.](https://pkg.go.dev/tinygo.org/x/drivers/hd44780i2c)
 
