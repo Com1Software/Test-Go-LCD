@@ -1,5 +1,7 @@
 # Test-Go-LCD
 
+[rpi-lcd](https://pkg.go.dev/github.com/mskrha/rpi-lcd)
+
 [d2r2/go-hd44780](https://github.com/d2r2/go-hd44780)
 
 [Sunfounder Wiki I2C LCD2004](http://wiki.sunfounder.cc/index.php?title=I2C_LCD2004)
