@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
+	"strings"
 
 	"github.com/mskrha/rpi-lcd"
 )
@@ -16,6 +17,7 @@ func main() {
 
 	for {
 		elapsed := fmt.Sprint(time.Since(start))		
+	    e:=strings.Split(elapsed,".")
 		if err := l.Print(1, 2, time.Now().Format("Monday Jan 2")); err != nil {
 			fmt.Println(err)
 			return
@@ -29,7 +31,7 @@ func main() {
 			fmt.Println(err)
 			return
 		}
-		if err := l.Print(4, 2, elapsed); err != nil {
+		if err := l.Print(4, 2, e[0]+"s"); err != nil {
 			fmt.Println(err)
 			return
 		}
